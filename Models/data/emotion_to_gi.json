@@ -1,0 +1,112 @@
+{
+    "admiration": [
+        "Active_GI", "Affil_GI", "Dav_GI", "Iav_GI", "Ovrst_GI", "Passive_GI",
+        "Positiv_GI", "Pstv_GI", "Socrel_GI", "Strong_GI", "Sv_GI", "Virtue_GI"
+    ],
+    "amusement": [
+        "Active_GI", "Dav_GI", "Iav_GI", "Negativ_GI", "Ngtv_GI", "Strong_GI"
+    ],
+    "anger": [
+        "Active_GI", "Dav_GI", "Hostile_GI", "Iav_GI", "Negativ_GI", "Ngtv_GI",
+        "Passive_GI", "Strong_GI", "Sv_GI"
+    ],
+    "annoyance": [
+        "Active_GI", "Dav_GI", "Iav_GI", "Negativ_GI", "Ngtv_GI", "Passive_GI",
+        "Socrel_GI", "Strong_GI", "Sv_GI"
+    ],
+    "approval": [
+        "Active_GI", "Dav_GI", "Iav_GI", "Negativ_GI", "Ovrst_GI", "Passive_GI",
+        "Positiv_GI", "Pstv_GI", "Quan_GI", "Strong_GI", "Sv_GI", "Virtue_GI"
+    ],
+    "caring": [
+        "Active_GI", "Dav_GI", "Iav_GI", "Passive_GI", "Positiv_GI", "Pstv_GI",
+        "Socrel_GI", "Strong_GI", "Sv_GI"
+    ],
+    "confusion": [
+        "Active_GI", "Comform_GI", "Dav_GI", "Iav_GI", "Negativ_GI", "Ovrst_GI",
+        "Passive_GI", "Positiv_GI", "Pstv_GI", "Solve_GI", "Strong_GI", "Sv_GI"
+    ],
+    "curiosity": [
+        "Active_GI", "Comform_GI", "Dav_GI", "Iav_GI", "Negativ_GI", "Ovrst_GI",
+        "Passive_GI", "Positiv_GI", "Pstv_GI", "Solve_GI", "Strong_GI", "Sv_GI"
+    ],
+    "desire": [
+        "Active_GI", "Affil_GI", "Dav_GI", "Iav_GI", "Need_GI", "Passive_GI",
+        "Positiv_GI", "Pstv_GI", "Self_GI", "Socrel_GI", "Strong_GI", "Sv_GI", "Weak_GI"
+    ],
+    "disappointment": [
+        "Active_GI", "Dav_GI", "Iav_GI", "Negativ_GI", "Ngtv_GI", "Passive_GI",
+        "Positiv_GI", "Pstv_GI", "Self_GI", "Socrel_GI", "Strong_GI", "Sv_GI"
+    ],
+    "disapproval": [
+        "Active_GI", "Dav_GI", "Iav_GI", "Negativ_GI", "Ngtv_GI", "Passive_GI",
+        "Positiv_GI", "Pstv_GI", "Self_GI", "Socrel_GI", "Strong_GI", "Sv_GI"
+    ],
+    "disgust": [
+        "Active_GI", "Dav_GI", "Iav_GI", "Negativ_GI", "Ngtv_GI", "Passive_GI",
+        "Strong_GI", "Sv_GI"
+    ],
+    "embarrassment": [
+        "Active_GI", "Dav_GI", "Iav_GI", "Negativ_GI", "Ngtv_GI", "Passive_GI",
+        "Strong_GI", "Sv_GI"
+    ],
+    "excitement": [
+        "Active_GI", "Affil_GI", "Dav_GI", "Iav_GI", "Passive_GI", "Positiv_GI",
+        "Pstv_GI", "Socrel_GI", "Strong_GI", "Time_2_GI"
+    ],
+    "fear": [
+        "Active_GI", "Dav_GI", "Iav_GI", "Negativ_GI", "Ngtv_GI", "Ovrst_GI",
+        "Passive_GI", "Strong_GI", "Sv_GI"
+    ],
+    "gratitude": [
+        "Active_GI", "Affil_GI", "Dav_GI", "Iav_GI", "Passive_GI", "Positiv_GI",
+        "Pstv_GI", "Strong_GI"
+    ],
+    "grief": [
+        "Active_GI", "Dav_GI", "Iav_GI", "Negativ_GI", "Ngtv_GI", "Ovrst_GI",
+        "Passive_GI", "Positiv_GI", "Pstv_GI", "Strong_GI", "Sv_GI", "Weak_GI"
+    ],
+    "joy": [
+        "Active_GI", "Affil_GI", "Dav_GI", "Iav_GI", "Ovrst_GI", "Passive_GI",
+        "Positiv_GI", "Pstv_GI", "Strong_GI", "Sv_GI"
+    ],
+    "love": [
+        "Active_GI", "Affil_GI", "Dav_GI", "Emot_GI", "Iav_GI", "Passive_GI",
+        "Positiv_GI", "Pstv_GI", "Self_GI", "Socrel_GI", "Strong_GI", "Sv_GI"
+    ],
+    "nervousness": [
+        "Active_GI", "Dav_GI", "Iav_GI", "Negativ_GI", "Ngtv_GI", "Ovrst_GI",
+        "Passive_GI", "Self_GI", "Socrel_GI", "Strong_GI", "Sv_GI", "Weak_GI"
+    ],
+    "optimism": [
+        "Active_GI", "Dav_GI", "Iav_GI", "Positiv_GI", "Pstv_GI", "Strong_GI"
+    ],
+    "pride": [
+        "Active_GI", "Affil_GI", "Dav_GI", "Iav_GI", "Ovrst_GI", "Passive_GI",
+        "Positiv_GI", "Pstv_GI", "Strong_GI"
+    ],
+    "realization": [
+        "Active_GI", "Affil_GI", "Dav_GI", "Iav_GI", "Negativ_GI", "Ovrst_GI",
+        "Passive_GI", "Positiv_GI", "Pstv_GI", "Quan_GI", "Solve_GI", "Strong_GI", "Sv_GI"
+    ],
+    "relief": [
+        "Active_GI", "Affil_GI", "Dav_GI", "Iav_GI", "Ovrst_GI", "Passive_GI",
+        "Positiv_GI", "Pstv_GI", "Strong_GI", "Sv_GI"
+    ],
+    "remorse": [
+        "Active_GI", "Iav_GI", "Negativ_GI", "Ngtv_GI", "Passive_GI",
+        "Strong_GI", "Sv_GI"
+    ],
+    "sadness": [
+        "Active_GI", "Dav_GI", "Iav_GI", "Negativ_GI", "Ngtv_GI", "Ovrst_GI",
+        "Passive_GI", "Self_GI", "Strong_GI", "Sv_GI"
+    ],
+    "surprise": [
+        "Active_GI", "Dav_GI", "Iav_GI", "Ovrst_GI", "Passive_GI", "Positiv_GI",
+        "Pstv_GI", "Socrel_GI", "Strong_GI", "Sv_GI"
+    ],
+    "neutral": [
+        "Active_GI", "Dav_GI", "Iav_GI", "Ovrst_GI", "Passive_GI", "Positiv_GI",
+        "Pstv_GI", "Quan_GI", "Strong_GI", "Sv_GI"
+    ]
+}

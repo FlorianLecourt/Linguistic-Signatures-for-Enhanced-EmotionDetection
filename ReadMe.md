@@ -1,23 +1,58 @@
-# Linguistic Signatures for Enhanced EmotionDetection
+# Linguistic Signatures for Enhanced Emotion Detection
 
-Github repository containing the trained models and results linked to the paper **Linguistic Signatures for Enhanced EmotionDetection**.
+[![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.7.0-ee4c2c.svg)](https://pytorch.org/)
 
-## Description
+//Correct after acceptance//
+[![Paper](https://img.shields.io/badge/arXiv-Paper-brightgreen.svg)](TODO_ADD_LINK)
 
-The RoBERTA-based models are stored in **Models**, alongside a summary of the evaluation metrics per seeds, the training loss curves, boxplots plotting the evaluation differences between the seeds, and one folder per seeds containing:
-+ *pytorch_model.bin*, the RoBERTa-based model
-+ *metrics.csv*, the F1 score per class
-+ *results.csv*, the evaluated GoEmotions texts, the true labels and the predicted labels
+## 📋 Table of Contents
+- [Description](#-description)
+- [Quick Start](#-quick-start)  
+- [References](#-references)
+- [Citation](#-citation)
+- [Acknowledgments](#acknowledgments)
 
-The Prompts (0 shot and 1 shot) sent to LLama3.2, with the LLM's responses are also available in **Models**.
+## 📖 Description
 
-The linguistics signatures are stored in **Signatures** in a txt file, sorted by datasets and per emotion labels in said dataset. A pie chart representation is also available in **Signatures PieCharts**. Similar to **Signatures PieCharts**, **Histograms** store the linguistic signatures, sorted by datasets and per emotion labels, but this time represented by bar charts like a histogram.
+This repository provides trained models and linguistic signatures for fine-grained emotion detection on the GoEmotions dataset.
 
-The 30 emotions set, alongside their GI Features are available in **Emotion Comparisons**.
+### Repository Structure
 
-## Getting Started
+- **`Models/`** - RoBERTa fine-tuned models 
+  - Per-seed folders with model weights, metrics, and predictions
+  - Training/evaluation notebooks
+  - Llama3.2 0-shot & 1-shot prompts + responses
+  - Summary visualizations (loss curves, boxplots)
 
-### Dependencies
+- **`Reproduction/`** - Reproduced SOTA baseline results
+
+- **`Signatures/`** - Linguistic signatures by dataset/emotion
+  - **`PieCharts/`** - Pie chart visualizations
+  - **`Histograms/`** - Bar chart representations
+
+- **`Emotion Comparisons/`** - 30 emotion categories with GI Features (General Inquirer lexicon features)
+
+
+## 🚀 Quick Start
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/linguistic-signatures-emotion.git
+cd linguistic-signatures-emotion
+
+# Create virtual environment
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+# venv\Scripts\activate   # Windows
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
+### List of dependencies
 
 * Python 3.11
     + datasets 3.6.0
@@ -30,7 +65,28 @@ The 30 emotions set, alongside their GI Features are available in **Emotion Comp
     + torch 2.7.0
     + tqdm 4.67.1
     + transformers 4.51.3
+    + ollama 0.6.1
+
+## 📖 References
+
+- [GoEmotions Dataset](https://research.google/blog/goemotions-a-dataset-for-fine-grained-emotion-classification/)
+- [ChatGPT: Jack of all trades, master of none](https://arxiv.org/abs/2302.10724)
+
+## 📖 Citation
+
+If you use this work, please cite:
+
+//Correct after acceptance//
+```bibtex
+@article{your_name2024linguistic,
+  title={Linguistic Signatures for Enhanced Emotion Detection},
+  author={Your Name and Colleagues},
+  year={2025}
+}
+```
 
 ## Acknowledgments
 
 This research was supported by the European Regional Development Fund (FEDER) through the IA-EMOTION project.
+
+*Linguistic signatures for enhanced emotion detection*

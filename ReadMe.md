@@ -4,7 +4,7 @@
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.7.0-ee4c2c.svg)](https://pytorch.org/)
 
 //Correct after acceptance//
-[![Paper](https://img.shields.io/badge/arXiv-Paper-brightgreen.svg)](TODO_ADD_LINK)
+[![Paper](https://img.shields.io/badge/arXiv-ADD_ID-b31b1b.svg)](TODO_ADD_LINK)
 
 ## 📋 Table of Contents
 - [Description](#-description)
@@ -15,7 +15,7 @@
 
 ## 📖 Description
 
-This repository provides trained models and linguistic signatures for fine-grained emotion detection on the GoEmotions dataset.
+This repository provides trained models for fine-grained emotion detection on the GoEmotions dataset, plus linguistic signatures for emotion labels from 13 English datasets.
 
 ### Repository Structure
 
@@ -31,7 +31,7 @@ This repository provides trained models and linguistic signatures for fine-grain
   - **`PieCharts/`** - Pie chart visualizations
   - **`Histograms/`** - Bar chart representations
 
-- **`Emotion Comparisons/`** - 30 emotion categories with GI Features (General Inquirer lexicon features)
+- **`Emotion Comparison/`** - 30 emotion categories with GI Features (General Inquirer lexicon features)
 
 
 ## 🚀 Quick Start
@@ -55,22 +55,24 @@ pip install -r requirements.txt
 ### List of dependencies
 
 * Python 3.11
-    + datasets 3.6.0
-    + matplotlib 3.10.3
-    + numpy 2.2.5
-    + pandas 2.2.3
-    + pillow 11.2.1
-    + scikit-learn 1.6.1
+    + datasets 4.4.1
+    + matplotlib 3.10.7
+    + numpy 2.3.5
+    + pandas 2.3.3
+    + pillow 12.0.0
+    + scikit-learn 1.7.2
     + seaborn 0.13.2
-    + torch 2.7.0
+    + torch 2.9.1
     + tqdm 4.67.1
-    + transformers 4.51.3
+    + transformers 4.57.1
     + ollama 0.6.1
 
 ## 📖 References
 
-- [GoEmotions Dataset](https://research.google/blog/goemotions-a-dataset-for-fine-grained-emotion-classification/)
-- [ChatGPT: Jack of all trades, master of none](https://arxiv.org/abs/2302.10724)
+- [GoEmotions Dataset](https://research.google/blog/goemotions-a-dataset-for-fine-grained-emotion-classification/), used for training and evaluation.
+- [ChatGPT: Jack of all trades, master of none](https://arxiv.org/abs/2302.10724), reproduced baseline for emotion detection.
+- The [NLP-resources](https://github.com/vishwa94sai/NLP-Resources) repository, made available by [Vishwa et al.](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9679993), used for preprocessing.
+- [General Inquirer lexicon](https://inquirer.sites.fas.harvard.edu/homecat.htm), used for linguistic signature analysis.
 
 ## 📖 Citation
 
@@ -78,9 +80,9 @@ If you use this work, please cite:
 
 //Correct after acceptance//
 ```bibtex
-@article{your_name2024linguistic,
+@article{name2025linguistic,
   title={Linguistic Signatures for Enhanced Emotion Detection},
-  author={Your Name and Colleagues},
+  author={Name},
   year={2025}
 }
 ```

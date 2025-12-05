@@ -40,7 +40,7 @@ This repository provides trained models for fine-grained emotion detection on th
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/linguistic-signatures-emotion.git
+git clone https://github.com/FlorianLecourt/Linguistic-Signatures-for-Enhanced-EmotionDetection.git
 cd linguistic-signatures-emotion
 
 # Create virtual environment

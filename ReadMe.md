@@ -2,7 +2,7 @@
 
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.7.0-ee4c2c.svg)](https://pytorch.org/)
-[![Paper](https://img.shields.io/badge/arXiv-ADD_ID-b31b1b.svg)](https://arxiv.org/pdf/2603.20222)
+[![Paper](https://img.shields.io/badge/arXiv-2603.20222-b31b1b.svg)](https://arxiv.org/pdf/2603.20222)
 
 ## 📋 Table of Contents
 - [Description](#-description)

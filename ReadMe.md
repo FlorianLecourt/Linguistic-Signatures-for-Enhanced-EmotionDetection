@@ -2,9 +2,7 @@
 
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.7.0-ee4c2c.svg)](https://pytorch.org/)
-
-//Correct after acceptance//
-[![Paper](https://img.shields.io/badge/arXiv-ADD_ID-b31b1b.svg)](TODO_ADD_LINK)
+[![Paper](https://img.shields.io/badge/arXiv-ADD_ID-b31b1b.svg)](https://arxiv.org/pdf/2603.20222)
 
 ## 📋 Table of Contents
 - [Description](#-description)
@@ -78,17 +76,15 @@ pip install -r requirements.txt
 
 If you use this work, please cite:
 
-//Correct after acceptance//
 ```bibtex
-@article{name2025linguistic,
+@article{lecourt2026linguistic,
   title={Linguistic Signatures for Enhanced Emotion Detection},
-  author={Name},
-  year={2025}
+  author={Lecourt, Florian and Croitoru, Madalina and Todorov, Konstantin},
+  journal={arXiv preprint arXiv:2603.20222},
+  year={2026}
 }
 ```
 
 ## Acknowledgments
 
 This research was supported by the European Regional Development Fund (FEDER) through the IA-EMOTION project.
-
-*Linguistic signatures for enhanced emotion detection*
